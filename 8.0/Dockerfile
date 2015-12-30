@@ -1,5 +1,5 @@
-FROM tifayuki/java:7
-MAINTAINER Feng Honglin <hfeng@tutum.co>
+FROM tifayuki/java:8
+MAINTAINER Pablo Ramirez <pablo.ramirez@symbiose.cl>
 
 RUN apt-get update && \
     apt-get install -yq --no-install-recommends wget pwgen ca-certificates && \
